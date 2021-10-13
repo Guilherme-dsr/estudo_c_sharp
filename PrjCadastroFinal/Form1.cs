@@ -65,7 +65,12 @@ namespace PrjCadastroFinal
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Você clicou em mim!", "Aviso");
+            for (int contador = 0; contador <=5; contador++)
+            {
+                MessageBox.Show("Você clicou em mim!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
+
         }
     }
 }
